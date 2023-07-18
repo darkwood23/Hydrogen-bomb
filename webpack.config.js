@@ -2,20 +2,21 @@ const path = require('path');
 
 module.exports = {
     entry: './src/index.js',
+    devtool: "inline-source-map",
     output: {
         filename: 'main.js',
         path: path.resolve(__dirname, 'dist'),
     },
-    moudle: {
+    module: {
         rules: [
             {
                 test: /\.css$/i,
-                use: ['sytle-loader', 'css-loader']
+                use: ['style-loader', 'css-loader'],
             },
             {
-                test: /\.(png|jpeg|jpg|svg|gif)$/i,
-                use: 'asset/resource'
+                test: /\.(png|jpeg|jpg|gif|svg)$/i,
+                type: 'asset/resource'
             }
-        ]
-    }
+        ],
+    },
 };
