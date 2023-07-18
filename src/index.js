@@ -1,5 +1,6 @@
 import './style.css'
 import { displayHead } from './head'
+import { displayTabs } from './tabs'
 
 const everyting = document.getElementById("everything")
 const head = document.createElement("div")
@@ -14,6 +15,7 @@ tabs.id = "tabs"
 
 body.appendChild(mainBody)
 displayHead(head)
+displayTabs(tabs)
 
 everyting.appendChild(head)
 everyting.appendChild(tabs)

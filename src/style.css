@@ -23,6 +23,41 @@ body {
     gap: 1rem;
     margin: 0.5rem;
     background-color: rgb(216, 4, 4);
-    border-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
     padding: 0.25rem;
+}
+
+#tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: yellow;
+    margin: 0.5rem;
+    padding: 0.25rem;
+}
+
+.home, 
+.products,
+.services {
+    width: 10rem;
+    height: 4rem;
+    color: red;
+    background-color: black;
+    border-radius: 2rem;
+    border: 2px solid black;
+    font-size: 2rem;
+}
+
+.home:active, 
+.products:active,
+.services:active {
+    background-color: red;
+    color: black;
+    border: 2px solid black;
+}
+
+.yellow {
+    background-color: yellow;
 }
