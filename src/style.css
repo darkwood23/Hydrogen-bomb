@@ -63,9 +63,27 @@ body {
 }
 
 #footer {
-    background-color: red;
+    background-color: yellow;
     margin: 0.5rem;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
     padding: 1rem;
+}
+
+.real-head {
+    margin: 0.5rem;
+    background-color: red;
+    padding: 1rem;
+}
+
+.div2 {
+    display: flex;
+}
+
+.about {
+    font-size: 1.5rem;
+}
+
+.about-us {
+    font-size: 2rem ;
 }
