@@ -61,3 +61,11 @@ body {
 .yellow {
     background-color: yellow;
 }
+
+#footer {
+    background-color: red;
+    margin: 0.5rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding: 1rem;
+}
