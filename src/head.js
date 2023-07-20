@@ -1,4 +1,4 @@
-import logos from './logo.jpeg'
+import logos from './img/logo.jpeg'
 
 function displayHead(contentHolder) {
     const div1 = document.createElement("div")

@@ -58,6 +58,12 @@ body {
     border: 2px solid black;
 }
 
+.home:hover,
+.products:hover,
+.services:hover {
+    transform: scale(1.2);
+}
+
 .yellow {
     background-color: yellow;
 }
@@ -87,3 +93,29 @@ body {
 .about-us {
     font-size: 2rem ;
 }
+
+.hold {
+    background-color: red;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+}
+
+.div3 {
+    font-size: 3rem;
+}
+
+.hold:nth-child(2) img {
+    width: 400px;
+}
+
+.hold:nth-child(3) img {
+    width: 450px;
+}
+
+.hold:nth-child(4) img {
+    width: 400px;
+}
+

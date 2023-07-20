@@ -1,4 +1,5 @@
 import { displayHome } from "./home"
+import { displayProducts } from "./products"
 
 function displayTabs(contentHolder, body) {
     const home = document.createElement("button")
@@ -27,6 +28,7 @@ function displayTabs(contentHolder, body) {
         home.classList.remove("yellow")
         services.classList.remove("yellow")
         products.classList.add("yellow")
+        displayProducts(body)
     })
 
     services.addEventListener("click", function() {

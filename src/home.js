@@ -1,4 +1,4 @@
-import bomb from './bomb.jpeg'
+import bomb from './img/bomb.jpeg'
 
 function displayHome(contentHolder) {
     contentHolder.textContent = ""
