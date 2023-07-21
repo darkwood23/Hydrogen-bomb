@@ -107,15 +107,19 @@ body {
     font-size: 3rem;
 }
 
-.hold:nth-child(2) img {
-    width: 400px;
+.hold img {
+    width: 500px;
 }
 
-.hold:nth-child(3) img {
-    width: 450px;
+.service-holder {
+    margin: 0.5rem;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    font-size: 2rem;
 }
 
-.hold:nth-child(4) img {
-    width: 400px;
+.service-holder:nth-child(3) img {
+    width: 475px;
 }
-

@@ -1,5 +1,6 @@
 import { displayHome } from "./home"
 import { displayProducts } from "./products"
+import { displayServices } from "./services"
 
 function displayTabs(contentHolder, body) {
     const home = document.createElement("button")
@@ -35,6 +36,7 @@ function displayTabs(contentHolder, body) {
         home.classList.remove("yellow")
         products.classList.remove("yellow")
         services.classList.add("yellow")
+        displayServices(body)
     })
 
     contentHolder.appendChild(home)

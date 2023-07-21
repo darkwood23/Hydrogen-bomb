@@ -1,6 +1,6 @@
 import fat from './img/fat.jpg'
-import topol from "./img/topol.jpg"
-import trident from './img/trident.jpg'
+import topol from "./img/ground.jpeg"
+import trident from './img/trident.jpeg'
 import bomb from './img/bomb.jpeg'
 
 import { makeProducts } from './make-products'
